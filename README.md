@@ -1,4 +1,4 @@
-# **SWE Standard Practice**
+# **SWE Standard Practice AIPI 510**
 
 ## **Overview**
 This project is designed to [briefly describe what your project does]. The main script reads a CSV file containing Bitcoin prices and prints the first five rows. Unit tests are provided to ensure the code functions as expected.
