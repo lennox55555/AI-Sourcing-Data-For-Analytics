@@ -76,19 +76,11 @@ After you're done working on the project, you can deactivate the virtual environ
 deactivate
 ```
 
-### **8. Generate requirements.txt (Optional)**
-
-If you make changes to the dependencies and want to update the requirements.txt file, you can generate it by running:
-
-```bash
-pip freeze > requirements.txt
-```
-
 ## **Credits**
 This project was made possible with the help of several valuable resources:
 
 - SavvyCSV: Finding the perfect CSV file in seconds has never been easier! As a machine learning researcher, data analyst, and scientist, I used SavvyCSV to quickly locate relevant CSV files for this project.
 
-- GPT Assistance: GPT-4 was instrumental in looking up documentation for unit testing and helping ensure that the testing practices used in this project were up to standard.
+- GPT Assistance: GPT-4 was instrumental in looking up documentation for unit testing and helping ensure that the testing practices used in this project were up to standard. In addition, it was used to generate a base gitignore file.
 
 Special thanks to the developers and communities that contributed to the tools and libraries listed in the **requirements.txt file**, making this project possible.

@@ -64,10 +64,6 @@ coverage.xml
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
 
 # Flask stuff:
 instance/
