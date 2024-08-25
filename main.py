@@ -2,18 +2,32 @@
 import pandas as pd
 
 
-def firstFiveRows(file_path):
+def firstFiveRows(filePath):
     """
-    Reads a CSV file and returns the first 5 rows.
+    Reads a CSV file and prints/returns the first 5 rows .
 
     Input/Param:
-    - file_path (str): The path to the CSV file.
+        path to the CSV file.
 
-    Returns:
-    - pd.DataFrame: The first 5 rows of the CSV file as a DataFrame.
+    Output/Returns:
+        first 5 rows of the CSV file of a DataFrame.
     """
-    df = pd.read_csv(file_path)
+    df = pd.read_csv(filePath)
     print(df.head(5))
+    return df.head(5)
+
+def lastFiveRows(filePath):
+    """
+        Reads a CSV file and prints/returns the last 5 rows .
+
+        Input/Param:
+            path to the CSV file.
+
+        Output/Returns:
+            last 5 rows of the CSV file of a DataFrame.
+        """
+    df = pd.read_csv(filePath)
+    print(df.tail(5))
     return df.head(5)
 
 
