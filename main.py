@@ -28,12 +28,13 @@ def lastFiveRows(filePath):
         """
     df = pd.read_csv(filePath)
     print(df.tail(5))
-    return df.head(5)
+    return df.tail(5)
 
 
 if __name__ == "__main__":
 
     firstFiveRows('data/bitcoinPrices.csv')
+    lastFiveRows('data/bitcoinPrices.csv')
 
 
 
